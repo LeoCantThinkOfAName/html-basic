@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Selector</title>
+    </head>
+    <style>
+        * {
+            font-size: 16px;
+        }
+
+        body {
+            background: ivory;
+        }
+
+        div {
+            background: pink;
+        }
+
+        .red-section {
+            background: red;
+        }
+
+        #green-section {
+            background: green;
+        }
+
+        [role=dialog] {
+            background: yellow;
+        }
+
+        .list-1, .list-2 {
+            background: purple;
+        }
+    </style>
+    <body>
+        <h1>Hello in H1</h1>
+        <p>Hello in p</p>
+
+        <div>All divs are pink</div><br/>
+        <div>All divs are pink</div><br/>
+        <div>All divs are pink</div><br/>
+        <div class="red-section">.red-section are red</div><br/>
+        <div id="green-section">#green-section is green</div><br/>
+        <div role="dialog">role=dialog attr are yellow</div><br/>
+        <div class="list-1">.list-1 and .list-2 are purple</div><br/>
+        <div class="list-2">.list-1 and .list-2 are purple</div><br/>
+    </body>
+</html>
